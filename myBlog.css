@@ -1,0 +1,50 @@
+div {
+	border: 20px gray solid;
+	
+	width: 75%;
+	max-width: 700px;
+	margin: auto;	
+}
+div:nth-of-type(1) p:nth-of-type(1)  {
+	margin-left: 25px;
+	border-left: 6px gray solid;
+	padding-left: 5px;
+}
+div:nth-of-type(1) p:nth-of-type(4)  {
+	margin-left: 25px;
+	border-left: 6px gray solid;
+	padding-left: 5px;
+}
+hr {
+	width: 85%;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	/* google to add style*/
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 2.0rem;
+}
+
+h3 {
+	color: #8cbece;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+.padded {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+* {
+	font-family: "Slabo 27px";
+}
+img {
+	width: 80%;
+	margin-left: 28px;
+	border-left: 6px gray solid;
+	border-right: 6px gray solid;
+	padding: 1rem;
+
+}
